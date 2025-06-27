@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-bootstrap1",
+  "version": "1.0.0",
+  "description": "Diseño frontend pagina web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DayanneCh/interfazFront.git"
+  },
+  "author": "Dayanne Chilatra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DayanneCh/interfazFront/issues"
+  },
+  "homepage": "https://github.com/DayanneCh/interfazFront#readme"
+}

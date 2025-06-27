@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">  <!-- estilos de bootstrap--> 
+    <link rel="stylesheet" href="style.css"> <!-- estilos propios--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Pagina</title>
+</head>
+<body>
+  <!-- codigo barra de navegacionn navbar--> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Metrofind</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://onac.org.co/directorio-de-acreditados/">ONAC</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nosotros
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://idime.com.co/nuestra-historia/">Nuestra historia</a></li>
+            <li><a class="dropdown-item" href="https://idime.com.co/direccionamiento/">Direccionamiento</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://idime.com.co/mision-y-vision/">Mision y Vision</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Soporte</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- carousel de imagenes-->
+
+<div id="carouselExampleIndicators" class="carousel slide mb-5"> <!-- mb-2 my y mt mx  ml me da un salto de pagina entre el carousel y la tarjeta -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/imagenes/estadistica.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/imagenes/laborando.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/imagenes/piederey.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/imagenes/inge.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/imagenes/legal.jpg" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- <br> -->  <!-- salto de linea o espacio -->
+
+<!-- codigo de tarjetas-->
+
+  <div class="container"> <!-- esta es una etiqueta div con una clase container -->
+    <div class="row">
+      <div class="card col-sm-12 col-md-3">
+        <img src="/imagenes/manometroprueba.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Calibración de esfignomanometros</h3>
+          <p class="card-text" style="text-align: justify;">Es un proceso crucial para asegurar la precisión de las mediciones de presión arterial. Se recomienda calibrar los esfigmomanómetros regularmente.</p>
+        </div>
+      </div>
+      <div class="col-md-1"></div> <!-- espacio entre las tarjetas -->
+
+      <div class="card col-sm-12 col-md-3">
+        <img src="/imagenes/calibracion basculas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2>Calibración de basculas</h2>
+          <p class="card-text" style="text-align: justify;">Proporciona lecturas precisas, lo que es esencial para evitar errores en la producción, la investigación, el control de calidad y el comercio. </p>
+        </div>
+      </div>
+      <div class="col-md-1"></div> <!-- espacio entre las tarjetas -->
+
+      <div class="card col-sm-12 col-md-3">
+         <a href="https://es.scribd.com/document/455617238/IC-015-Calibracion-de-monitores-de-signos-vitales"> <img src="/imagenes/monitorsv.jpg" class="card-img-top"  alt="..."></a> <!-- etiqueta a sirve para asignar hipervinculo a la imagen -->
+         <div class="card-body">
+           <h2>Calibración de monitores de signos vitales</h2>
+           <p class="card-text" style="text-align: justify;" >Es un proceso esencial para asegurar la exactitud de las mediciones de parámetros fisiológicos como la presión arterial, frecuencia cardíaca, oxígeno en sangre y temperatura.</p>
+        </div>
+      </div>
+               
+    </div>
+  </div><!-- termina la tarjeta -->
+<br>
+<footer class="bg-dark text-white">
+
+ <div class="container ">
+     <div class="row">
+        <!-- primer columna -->
+        <div class="col-md-5">
+<h4> Servicio Nacional de Aprendizaje SENA </h4>
+  <h4>DIRECCION GENERAL</h4>
+  <P style="text-align: left; ">Calle 57 No. 8 - 69 Bogotá D.C. (Cundinamarca), Colombia</P>
+        </div>
+         <!-- segunda columna -->
+        <div class="col-md-5">
+<p style="text-align: justify;">El SENA brinda a la ciudadanía, atención presencial en las 33 Regionales y 
+  118 Centros de Formación
+Línea de WhatsApp: 3112545028 Conozca aquí los puntos de atención
+  Líneas de atención al ciudadanos, empresarios y línea PQRS:
+Bogotá +(57) 601 736 60 60 
+  - Línea gratuita y resto del país 018000 910270</p>
+        </div>
+        <!-- tercera columna -->
+        <div class="col-md-2">
+          <h5>Redes Sociales</h5> 
+          <ul class="list-unstyled d-flex flex-column gap-2"> <!-- lista desogarnizada para lista html -->
+              <li> <a href="https://www.facebook.com/SENA/"class="text-white"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+              <li> <a href="https://x.com/SENAComunica"class="text-white"><i class="fa-brands fa-twitter"></i> Twitter </a></li>
+              <li> <a href="https://www.instagram.com/senacomunica/"class="text-white"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li> <a href="https://www.youtube.com/user/SENATV"class="text-white"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+              <li> <a href="https://www.linkedin.com/school/servicio-nacional-de-aprendizaje-sena-/"class="text-white"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+              <li> <a href="https://www.tiktok.com/@senacomunica_"class="text-white"><i class="fa-brands fa-tiktok"></i> Tik-Tok</a></li>
+          </ul>  
+        </div>
+     </div>
+ </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- <script src="/js/bootstrap.min.js"></script> --> <!-- funcionalidades de bootstrap-->
+</body>
+</html>
